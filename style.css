@@ -1,0 +1,263 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    background: radial-gradient( #2b1d61,#660583 ,black 90%);
+}
+.row{
+    width: 100%;
+    height: 70px;
+    background: radial-gradient(#2b1d61,#660583,black);
+    display: flex;
+    justify-content: center;
+    
+    position: sticky;
+    top: 0px;
+    background-attachment: fixed;
+
+
+}
+.marque{
+    
+    color:bisque;
+    font-family: Montserrat;
+    font-size: x-large;
+    font-weight: 300;
+    /* margin-bottom: 35px; */
+    padding-top: 13px;
+    z-index: 5;
+}
+.navbar1{
+    width: 100%;
+    height: 120px;
+    background: radial-gradient(#2b1d61,#660583,black);
+    /* position: sticky;
+    top: 70px; */
+
+}
+
+nav ul li img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    box-shadow: 10px 10px 10px #433e27;
+    margin-right:600px;
+    
+}
+
+nav ul{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    list-style: none;
+
+}
+nav ul li{
+  
+    /* padding: 15px; */
+    
+    
+}
+nav ul li a{
+    
+        text-decoration: none;
+        font-size: larger;
+        margin-right: 50px;
+        color: bisque;
+        transition: 1.8s;
+        
+    
+}
+
+nav ul li:hover{
+
+    text-shadow: 2px 2px 8px #f982f1;
+    font-size: x-large;
+    font-weight: 600;
+    font-family: Ysabeau SC;
+    
+    transform: scale(1.8);
+    
+}
+.img1{
+   width: 100%;
+  
+
+}
+
+.row1{
+    display: flex;
+    justify-content: space-between;
+    /* background: radial-gradient(#2b1d61,#660583,black); */
+}
+
+
+.vdo{
+    width:100%;
+    height: 500px;
+    
+   
+    
+}
+
+.row1 p{
+    color: bisque;
+    padding-top: 20px;
+    padding-right: 120px;
+}
+.row1 p #span1{
+    font-family:Montserrat ;
+    letter-spacing: 3px;
+    font-size:50px;
+    font-weight: 200;
+    text-shadow: 5px 5px 8px bisque;
+}
+
+.row1 p #span2{
+    background-color: bisque;
+    color: #2b1d61;
+    font-family:Montserrat ;
+    letter-spacing: 5px;
+    font-size: 60px;
+    font-weight: 800;
+
+}
+.row1 p #span3{
+
+    font-family:Montserrat ;
+    letter-spacing: 5px;
+    font-size: 80px;
+    font-weight: 800;
+    text-shadow: 2px 2px 8px bisque;
+
+}
+
+.row1 p #span4{
+    font-family:Montserrat ;
+    letter-spacing: 5px;
+    font-size: 60px;
+    font-weight: 100;
+    text-shadow: 5px 5px 5px bisque;
+
+}
+.row1 p #span5{
+
+    background-color: bisque;
+    color: #2b1d61;
+    font-family:Montserrat ;
+    letter-spacing: 5px;
+    font-size: 60px;
+    font-weight: 800;
+
+}
+
+#collection{
+    text-align: center;
+    color: white;
+    font-family: Montserrat;
+    font-size: 50px;
+    text-shadow: 2px 2px 3px bisque;
+    letter-spacing: 5px;
+    font-weight: 500;
+}
+
+.deal{
+    text-align: center;
+    color:bisque ;
+    font-family: Montserrat;
+    padding-top: 50px;
+    
+    text-shadow: 2px 2px 3px bisque;
+    letter-spacing: 5px;
+    
+}
+.row3{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 80px;
+    transition: 1.2s;
+    
+    
+    
+}
+.row3 a .imgs{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.row3 a .imgs:hover{
+    transform: scale(1.2);
+    
+    
+}
+#tote{
+    text-align: center;
+    color:bisque ;
+    font-family: Montserrat;
+    padding-top: 80px;
+    
+    text-shadow: 2px 2px 3px bisque;
+    letter-spacing: 5px;
+
+}
+
+.card .card-title{
+    color: #2b1d61;
+    text-align: center;
+    font-family: Montserrat;
+
+}
+
+.card .card-text{
+    color: #2b1d61;
+    text-align: center;
+    font-family: Montserrat;
+
+
+}
+.card button{
+    margin-left: 180px;
+}
+.card img{
+    opacity: 0.3;
+}
+.card img:hover{
+    opacity:1;
+}
+
+.row5 .card-header{
+    text-align: center;
+    font-family: Montserrat;
+    padding-top: 40px;
+    font-weight: 300;
+    font-size: xx-large;
+    color: bisque;
+    
+    text-shadow: 2px 2px 3px bisque;
+    /* letter-spacing: 2px; */
+}
+
+.row6{
+    text-align: center;
+    font-family: Montserrat;
+    padding-top: 40px;
+    font-weight: 300;
+    font-size: xx-large;
+    color: bisque;
+    
+    /* text-shadow: 2px 2px 3px bisque; */
+    letter-spacing: 5px;
+
+}
+.copy{
+    text-align: center;
+    color: bisque;
+    font-family: Montserrat;
+    padding-top: 40px;
+    font-weight: 300;
+}
+
+
+
+
+
+
